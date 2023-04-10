@@ -1,10 +1,9 @@
 import '../App.css'
 
-
 const Navbar = ()=>{
     return (
-        <nav className="headZ">
-            <div className="">
+        <nav>
+            <div className="nav-wrapper black">
                 <a href="/allorders" class="brand-logo">Daru la</a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="/allorders">myorders</a></li>

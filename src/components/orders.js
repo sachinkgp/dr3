@@ -8,7 +8,7 @@ const AllOrders=()=>{
     useEffect(()=>{
         axios
         .get('http://jsonplaceholder.typicode.com/users')
-        .then(res=>{
+        .then((res)=>{
             setOrders(res.data);
         })
     })
