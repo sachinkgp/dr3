@@ -23,8 +23,8 @@
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   padding: 20px 16px 20px 16px;
-  background-color: rgba(147, 23, 204, 0.2);
-  border-radius: 100px;
+  background-color: rgba(200, 200, 200, 0.7);
+  border-radius: 30px;
 }
 
 .card:hover {
@@ -33,7 +33,7 @@
 
 .rows{
   margin: 5px,5px,5px,5px;
-  margin-top: 12px;
+  margin-top: 25px;
   margin-bottom: 12px;
   border-radius: 10px;
 }
@@ -55,4 +55,8 @@
 }
 .buttonZ:hover{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.headZ{
+  color: rgba(16, 150, 173, 0.7);
 }
